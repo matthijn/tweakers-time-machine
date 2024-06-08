@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Topic Tattle",
+  "name": "Tweakers Time MAchine",
   "version": "1.0",
-  "description": "A Chrome extension to notify about new messages on Tweakers forum topics.",
+  "description": "\"On this day in year...\" feature for tech website Tweakers.net",
   "permissions": [
     "notifications",
     "scripting",
@@ -10,7 +10,8 @@
   ],
   "host_permissions": [
     "https://tweakers.net/",
-    "https://randomize.be/"
+    "https://randomize.be/",
+    "https://api.allorigins.win/"
   ],
   "content_scripts": [
     {
