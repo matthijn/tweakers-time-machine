@@ -1,0 +1,11 @@
+{
+  "name": "topic-tattle",
+  "version": "1.0.0",
+  "description": "Notification alert for gathering.tweakers.net",
+  "scripts": {
+    "build": "npx parcel build content.js --no-source-maps",
+    "auto-build": "npx nodemon --exec \"npm run build\" --ignore dist"
+  },
+  "author": "ZpAz",
+  "license": "MIT"
+}
