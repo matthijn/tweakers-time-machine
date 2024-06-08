@@ -5,6 +5,9 @@ This section contains historical articles from the same day in other years.
 
 Wouldn't exist without the work done by [ieperlingetje](https://tweaker.me/ieperlingetje) and his [Tijdmachine](https://randomize.be/wot_tijdmachine/) (Time Machine) website for its contents.
 
+## Screenshot
+![Screenshot](./screenshot.png)
+
 ## Installation
 For now the extension is not available in the Chrome store. (So there are no automatic updates)
 

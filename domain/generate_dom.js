@@ -1,7 +1,7 @@
 // After title exists to make sure there's a nice divide between new / ancient and / older nieuws
 export function articles_to_dom_elements(groups, after_title = 'Ander nieuws') {
     const html = `
-        <div class="historical-headline headline-block-1">
+        <div class="historical-headline">
             <div class="headlines-head">
                 <h2 class="fp-title">
                     Vandaag in historie
