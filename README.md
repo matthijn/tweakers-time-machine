@@ -26,4 +26,4 @@ Download the latest release from [here](https://github.com/matthijn/tweakers-tim
 - Todo
 
 ## Suggestions / Bugs
-For any suggestions and or bugs please open a new [issue](https://github.com/matthijn/topic-tattle/issues) or send me a [DM](https://gathering.tweakers.net/forum/pm_new_message).  
+For any suggestions and or bugs please open a new [issue](https://github.com/matthijn/topic-tattle/issues) or send me a [DM](https://gathering.tweakers.net/forum/pm_new_message). PR's are welcome.  
