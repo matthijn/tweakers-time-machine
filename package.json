@@ -1,7 +1,7 @@
 {
-  "name": "topic-tattle",
-  "version": "1.0.0",
-  "description": "Notification alert for gathering.tweakers.net",
+  "name": "tweakers-time-machine",
+  "version": "0.0.1",
+  "description": "\"On this day in year...\" feature for tech website Tweakers.net",
   "scripts": {
     "build": "npx parcel build content.js --no-source-maps",
     "auto-build": "npx nodemon --exec \"npm run build\" --ignore dist"
