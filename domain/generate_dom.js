@@ -2,9 +2,14 @@
 export function articles_to_dom_elements(groups, after_title = 'Ander nieuws') {
     const html = `
         <div class="historical-headline">
+            <style>
+                .history-source {
+                    font-size: 12px;
+                }
+            </style>
             <div class="headlines-head">
                 <h2 class="fp-title">
-                    Vandaag in historie
+                    Vandaag in historie <a href="https://randomize.be/wot_tijdmachine/" class="history-source">(Bron)</a>
                 </h2>
             </div>
             <div class="headlines-1">
