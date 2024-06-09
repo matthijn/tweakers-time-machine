@@ -9,13 +9,21 @@ Wouldn't exist without the work done by [ieperlingetje](https://tweaker.me/ieper
 ![Screenshot](./screenshot.png)
 
 ## Installation
-For now the extension is not available in the Chrome store. (So there are no automatic updates)
+For now the extension is not available in any extension store. (So there are no automatic updates)
 
 Download the latest release from [here](https://github.com/matthijn/tweakers-time-machine/releases/)
 
+### Chrome
 - Navigate to chrome://extensions
 - Expand the Developer dropdown menu and click “Load Unpacked Extension”
 - Navigate to the local folder containing the extension’s code and click Ok
+- Assuming there are no errors, the extension should load into your browser
+
+### Firefox
+- Navigate to about:debugging#/runtime/this-firefox
+- Click on Load Temporary Add on
+- Navigate to the local folder containing the extension’s code and click Ok
+- Go to Tweakers.net, click the extension icon and give access
 - Assuming there are no errors, the extension should load into your browser
 
 ## Building for development
