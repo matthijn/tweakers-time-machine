@@ -1,5 +1,5 @@
 import { map_html_to_articles } from "./html_parser";
-import {sample} from "../lib/array";
+import { sample } from "../lib/array";
 
 export async function fetch_articles() {
     const html = await fetch_source_html()

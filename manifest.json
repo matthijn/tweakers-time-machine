@@ -9,8 +9,7 @@
   ],
   "host_permissions": [
     "https://tweakers.net/",
-    "https://randomize.be/",
-    "https://api.allorigins.win/"
+    "https://randomize.be/"
   ],
   "content_scripts": [
     {

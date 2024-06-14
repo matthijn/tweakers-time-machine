@@ -6,37 +6,84 @@
     <title>Tweakers Time Machine</title>
     <style>
         body {
-            background: rgb(161, 18, 54);
+            background: #342d31;
+            font-family: Helvetica, sans-serif;
             color: white;
-            font-family: sans-serif;
+        }
+
+        h1, h2 {
+            color: rgb(201, 18, 54);
+        }
+
+        h1 {
+            font-size: 22px;
+        }
+
+        h2 {
+            font-size: 18px;
         }
 
         body a {
-            color: white;
+            color: #f5e255;
+            text-decoration: none;
+        }
+
+        body a:hover {
+            opacity: .9;
+        }
+
+        .container {
+            width: 350px;
+            margin: 0 auto;
+        }
+
+        fieldset {
+            border: none;
         }
     </style>
+
+    <script src="dist/popup.js"></script>
 </head>
 <body>
-<header>
-    <h1>Tweakers Time Machine</h1>
-    <p>Wouldn't exist without the work done by <a href="https://tweaker.me/ieperlingetje">ieperlingetje</a> and his <a href="https://randomize.be/wot_tijdmachine/">Tijdmachine</a> (Time Machine) website for its contents.</p>
-</header>
 
-<main>
-    <section>
-        <h2>Settings</h2>
-        <p>No settings for now</p>
-    </section>
+    <div class="container">
+        <header>
+            <h1>Tweakers Time Machine</h1>
+            <p>Wouldn't exist without the work done by <a href="https://tweaker.me/ieperlingetje">ieperlingetje</a> and his <a href="https://randomize.be/wot_tijdmachine/">Tijdmachine</a> (Time Machine) website for its contents.</p>
+        </header>
 
-    <section>
-        <h2>Source & Feature requests</h2>
-        <p><a target="_blank" href="https://github.com/matthijn/tweakers-time-machine">GitHub</a></p>
-    </section>
-</main>
+        <main>
+            <section>
+                <h2>Settings</h2>
 
-<footer>
-    <p>&copy; 2023 <a href="https://tweaker.me/zpaz">ZpAz</a>.</p>
-</footer>
+                <form>
+                    <fieldset class="date-range">
+                        <label for="start_year">Start: </label><select id="start_year"></select> <label for="end_year"> End: </label><select id="end_year"></select>
+                    </fieldset>
+
+                    <fieldset class="year-count">
+                        <label for="year_count">Years to display: </label><select id="year_count"></select>
+                    </fieldset>
+
+                    <fieldset class="year-count">
+                        <label for="article_count">Articles per year: </label> <select id="article_count"></select>
+                    </fieldset>
+                </form>
+
+            </section>
+
+            <section>
+                <h2>Source & Feature requests</h2>
+                <p>
+                    Make a ticket on <a target="_blank" href="https://github.com/matthijn/tweakers-time-machine">GitHub</a> or send me a <a href="https://tweaker.me/zpaz">DM.</a>
+                </p>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2023 <a href="https://tweaker.me/zpaz">ZpAz</a>.</p>
+        </footer>
+    </div>
 
 </body>
 </html>
