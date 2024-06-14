@@ -8,6 +8,9 @@ Wouldn't exist without the work done by [ieperlingetje](https://tweaker.me/ieper
 ## Screenshot
 ![Screenshot](./screenshot.png)
 
+### Settings
+![Settings](./settings.png)
+
 ## Installation
 For now the extension is not available in any extension store. (So there are no automatic updates)
 
