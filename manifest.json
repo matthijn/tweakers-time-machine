@@ -4,7 +4,6 @@
   "version": "1.0",
   "description": "\"On this day in year...\" feature for tech news website Tweakers.net",
   "permissions": [
-    "scripting",
     "storage"
   ],
   "host_permissions": [
