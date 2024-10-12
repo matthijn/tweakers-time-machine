@@ -34,6 +34,9 @@ document.addEventListener('DOMContentLoaded', async function () {
         make_persistable_select("end_year", years, (value) => Math.max(get_default("start_year"), value)),
 
         make_persistable_select("year_count", range),
-        make_persistable_select("article_count", range)
+        make_persistable_select("article_count", range),
+
+        make_persistable_select('year_sort', ['No', 'Yes, oldest first', 'Yes, newest first']),
+        make_persistable_select('display_location', ['Below current news', 'Sidebar'])
     ])
 })

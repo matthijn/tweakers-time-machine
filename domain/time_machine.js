@@ -6,11 +6,19 @@ export async function fetch_articles() {
     return map_html_to_articles(html)
 }
 
-export function randomized_articles(contents, nr_years = 3, per_year = 4) {
-    return sample(contents.map((group) => ({
+export function randomized_articles(contents, nr_years = 3, per_year = 4, year_sort = 'No') {
+    const randomArticles = sample(contents.map((group) => ({
         ...group,
         articles: sample(group.articles, per_year)
-    })), nr_years)
+    })), nr_years);
+
+    if (year_sort === 'Yes, oldest first') {
+      return randomArticles.sort((a, b) => parseInt(a.year) - parseInt(b.year));
+    } else if (year_sort === 'Yes, newest first') {
+        return randomArticles.sort((a, b) => parseInt(b.year) - parseInt(a.year));
+    } else {
+      return randomArticles;
+    }
 }
 
 async function fetch_source_html() {
