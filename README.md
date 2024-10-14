@@ -9,6 +9,9 @@ Wouldn't exist without the work done by [ieperlingetje](https://tweaker.me/ieper
 ### On website
 ![Screenshot](./screenshot.png)
 
+### In sidebar
+![Screenshot](./screenshot-sidebar.png)
+
 ### Settings
 ![Settings](./settings.png)
 
@@ -51,3 +54,6 @@ Run `npm run build-dist` which will pack the extension into a zip file with the 
 
 ## Suggestions / Bugs
 For any suggestions and or bugs please open a new [issue](https://github.com/matthijn/topic-tattle/issues) or send me a [DM](https://gathering.tweakers.net/forum/pm_new_message). PR's are welcome.  
+
+## Contributors
+[urk_forever](https://tweakers.net/gallery/26975/)
