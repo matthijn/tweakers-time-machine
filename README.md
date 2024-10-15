@@ -26,9 +26,6 @@ Wouldn't exist without the work done by [ieperlingetje](https://tweaker.me/ieper
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Google_Chrome_icon_%28February_2022%29.svg/1920px-Google_Chrome_icon_%28February_2022%29.svg.png" alt="Tweakers Time Machine" width="64px">
 </a>
 
-### Build your own
-Download the latest release from [here](https://github.com/matthijn/tweakers-time-machine/releases/) or build your own using [Build for distribution](#building-for-distribution)
-
 #### Chrome
 - Navigate to chrome://extensions
 - Expand the Developer dropdown menu and click “Load Unpacked Extension”
@@ -41,6 +38,9 @@ Download the latest release from [here](https://github.com/matthijn/tweakers-tim
 - Navigate to the local folder containing the extension’s code and click Ok
 - Go to Tweakers.net, click the extension icon and give access
 - Assuming there are no errors, the extension should load into your browser
+
+### Build your own
+Build your own using [Build for distribution](#building-for-distribution)
 
 ## Building 
 To build, a recent [node](https://nodejs.org/en) or equivalent needs to be installed.  
