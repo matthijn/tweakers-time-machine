@@ -18,10 +18,10 @@ Wouldn't exist without the work done by [ieperlingetje](https://tweaker.me/ieper
 ## Installation
 
 ### Extension stores
-<a href="https://addons.mozilla.org/en-GB/firefox/addon/tweakers-time-machine/">
+<a href="https://addons.mozilla.org/nl/firefox/addon/tweakers-time-machine/">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Firefox_logo%2C_2017.svg/1920px-Firefox_logo%2C_2017.svg.png" alt="Tweakers Time Machine" width="64px">
 </a>
-&nbsp;&nbsp;
+
 <a href="https://chromewebstore.google.com/detail/tweakers-time-machine/opkkjabcgdjmimeikholjibnhaeooobi?authuser=0&hl=en">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Google_Chrome_icon_%28February_2022%29.svg/1920px-Google_Chrome_icon_%28February_2022%29.svg.png" alt="Tweakers Time Machine" width="64px">
 </a>
