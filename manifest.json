@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Tweakers Time Machine",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "\"On this day in year...\" feature for tech news website Tweakers.net",
   "permissions": [
     "storage"
