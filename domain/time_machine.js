@@ -14,9 +14,9 @@ export function randomized_articles(contents, nr_years = 3, per_year = 4, year_s
     })), nr_years);
 
     switch (year_sort) { 
-        case YearSort.YES_OLDEST_FIRST:
+        case YearSort.ASCENDING:
             return randomArticles.sort((a, b) => parseInt(a.year) - parseInt(b.year));
-        case YearSort.YES_NEWEST_FIRST:
+        case YearSort.DESCENDING:
             return randomArticles.sort((a, b) => parseInt(b.year) - parseInt(a.year));
         default:
             return randomArticles;

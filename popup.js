@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         make_persistable_select("year_count", range),
         make_persistable_select("article_count", range),
 
-        make_persistable_select('year_sort', [YearSort.NO, YearSort.YES_OLDEST_FIRST, YearSort.YES_NEWEST_FIRST]),
+        make_persistable_select('year_sort', [YearSort.RANDOM, YearSort.ASCENDING, YearSort.DESCENDING]),
         make_persistable_select('display_location', [NewsLocation.BELOW_RECENT, NewsLocation.SIDEBAR])
     ])
 })

@@ -7,7 +7,7 @@ const defaults = {
     end_year: new Date().getFullYear() - 1,
     year_count: 3,
     article_count: 4,
-    year_sort: YearSort.NO,
+    year_sort: YearSort.RANDOM,
     display_location: NewsLocation.BELOW_RECENT,
 }
 
