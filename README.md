@@ -56,4 +56,8 @@ Run `npm run build-dist` which will pack the extension into a zip file with the 
 For any suggestions and or bugs please open a new [issue](https://github.com/matthijn/topic-tattle/issues) or send me a [DM](https://gathering.tweakers.net/forum/pm_new_message). PR's are welcome.  
 
 ## Contributors
-[urk_forever](https://tweakers.net/gallery/26975/)
+- [ZpAz](https://tweaker.me/zpaz)
+- [urk_forever](https://tweaker.me/urk_forever)
+
+### Special thanks
+- [ieperlingetje](https://tweaker.me/ieperlingetje)
