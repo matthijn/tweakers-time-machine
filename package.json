@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "\"On this day in year...\" feature for tech website Tweakers.net",
   "scripts": {
-    "build-dev": "npx parcel@2 build content.js popup.js --no-source-maps",
+    "build-dev": "npx parcel@2 build content.js popup.js --no-source-maps --no-cache",
     "auto-build": "npx nodemon --exec \"npm run build-dev\" --ignore dist",
     "build-dist": "./build-distribution.sh"
   },
